@@ -1,9 +1,11 @@
+
 import React from "react";
 import GithubIcon from "../../public/github-icon.svg";
 import LinkedinIcon from "../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
+/* eslint-disable react/no-unescaped-entities */
 const EmailSection = () => {
   return (
     <section className="grid md:grid-cols-2 my-12 md:my-12 py-12 gap-4 relative">
@@ -68,7 +70,7 @@ const EmailSection = () => {
               name="message"
               id="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Let's talk about..."
+              placeholder="Lets talk about..."
             ></textarea>
           </div>
           <button type="submit" className="bg-amber-500 hover:bg-amber-600 text-white font-medium py-2.5 px-5 rounded-lg w-full">Send Message</button>
